@@ -22,6 +22,12 @@ body {
 
 /*Header & Nav*/
 
+nav a.selected, nav a:hover {
+
+color: #52A3CC;
+
+}
+
 .main-header {
 	padding: 15px;
 }
