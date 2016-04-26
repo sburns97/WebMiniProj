@@ -65,6 +65,7 @@ body {
 }
 .primary-content {
 	width: 40%;
+	text-align:center;
 }
 .col:last-child {
 	float: right;
