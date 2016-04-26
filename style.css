@@ -1,5 +1,5 @@
 
-/* site body */
+/* Page Styles */
 
 * {
 	-moz-box-sizing: border-box;
@@ -11,21 +11,32 @@ body {
 	background-color: #edeff0;
 }
 
-/*Header, Nav, footer*/
+/* Layout Element Colors */
+
+.main-header       { background-color: #384047; }
+.main-logo a       { background-color: #5fcf80; }
+.main-nav a        { background-color: #3f8abf; }
+.primary-content   { background-color: #caebf6; }
+.secondary-content { background-color: #bfe3d0; }
+.main-footer       { background-color: #b7c0c7; }
+
+/*Header & Nav*/
 
 .main-header {
 	padding: 15px;
 }
-
+.main-logo,
 .main-nav li {
 	float: left;
 }
-
+.main-logo {
+	margin: 0 50px 0 0;
+}
 .main-nav li {
 	margin-top: 15px;
 	margin-left: 15px;
 }
- 
+.main-logo a, 
 .main-nav a {
 	display: block;
 	color: white;
@@ -68,6 +79,20 @@ body {
   clear: both;
 }
 
+
+
+/* Imagery DEAL WITH THIS LATER 
+
+.feat-img {
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	border: solid 1px;
+	padding: 5px;
+} */
+
 /* Media Queries */
 
 @media (max-width: 768px) {
@@ -103,81 +128,4 @@ body {
 
 
 
-
-
-/*
-/**********
-Header
-***********
-
-/* Pink Header 
-header {
-background: #FFCCCC;
-  border-color: #FFFFCC;
-
-}
-/* Logo text 
-h1, h2 {
-color: #EBF5FF;}
-  
-  #logo {
-text-align: center;
-    margin: 0;
-
-}
-
-h1 { 
-font-family: 'EB Garamond', serif;
-  margin: 15px 0;
-  font-size: 2em;
-  line-height: 0.8em;
-
-}
-
-h2 {
-font-size: 1.0em;
-  margin: -5px 0 0;
-  font-weight: normal;
-  font-family: 'EB Garamond', serif;
-
-}
-/**********
-FOOTER
-***********
-footer {
-font-size: 0.72em;
-  text-align: center;
-  padding-top:50px;
-  color: #ffffff;
-}
-
-
-/**********
-NAV 
-***********
-
-nav {
-  float: left;
-  padding: 10px 0;
-  margin: 20px 0;
-    
-}
-
-
-/* Nav background 
-nav {
-background: #FFFFCC;}
-
-/* nav link
-
-nav a, nav a:visited {
-  color: #D6EBFF 
-}
-/* Selected Nav Link 
-
-nav a.selected, nav a:hover {
-
-color: #52A3CC;
-
-} */
 
