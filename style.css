@@ -31,18 +31,18 @@ a {
 color: #FFFFFF;
 
 }
-
+/*
 /**********
 Header
-***********/
+***********
 
-/* Pink Header */
+/* Pink Header 
 header {
 background: #FFCCCC;
   border-color: #FFFFCC;
 
 }
-/* Logo text */
+/* Logo text 
 h1, h2 {
 color: #EBF5FF;}
   
@@ -69,7 +69,7 @@ font-size: 1.0em;
 }
 /**********
 FOOTER
-***********/
+***********
 footer {
 font-size: 0.72em;
   text-align: center;
@@ -80,7 +80,7 @@ font-size: 0.72em;
 
 /**********
 NAV 
-***********/
+***********
 
 nav {
   float: left;
@@ -90,21 +90,53 @@ nav {
 }
 
 
-/* Nav background */
+/* Nav background 
 nav {
 background: #FFFFCC;}
 
-/* nav link*/
+/* nav link
 
 nav a, nav a:visited {
   color: #D6EBFF 
 }
-/* Selected Nav Link */
+/* Selected Nav Link 
 
 nav a.selected, nav a:hover {
 
 color: #52A3CC;
 
+} */
+
+.main-header {
+	padding: 15px;
+}
+
+.main-nav li {
+	float: left;
+}
+
+.main-nav li {
+	margin-top: 15px;
+	margin-left: 15px;
+}
+ 
+.main-nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+.main-banner {
+	background: #dfe2e4;
+	text-align: center;
+	padding: 35px 15px;
+}
+.main-footer {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
