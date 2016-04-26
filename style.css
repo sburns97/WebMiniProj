@@ -1,36 +1,110 @@
-/**********
-GENERAL
-***********/
-
 
 /* site body */
 
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body {
+	font: normal 1.1em/1.5 sans-serif;
+	color: #222;
+	background-color: #edeff0;
+}
+
+/*Header, Nav, footer*/
+
+.main-header {
+	padding: 15px;
+}
+
+.main-nav li {
+	float: left;
+}
+
+.main-nav li {
+	margin-top: 15px;
+	margin-left: 15px;
+}
  
-  font-family:'PT Serif', serif;
-  
-  }
-
-
-
-body {
-background-color: #99E6E6;
-  color: #fff;
+.main-nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 15px;
+	border-radius: 5px;
 }
-a {
-  text-decoration:none;
+.main-banner {
+	background: #dfe2e4;
+	text-align: center;
+	padding: 35px 15px;
 }
-#wrapper {
-max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-  
+.main-footer {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
-a {
-color: #FFFFFF;
+/* Column Layout USE THIS IN THE SUBPAGES, NOT RELAVENT ON INDEX */
 
+.col {
+	padding: 20px;
+	float: left;
+	width: 30%;
 }
+.primary-content {
+	width: 40%;
+}
+.col:last-child {
+	float: right;
+}
+
+
+/* Float Clearfix */
+
+.group:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	.main-wrapper,
+	.main-nav li, 
+	.main-logo,
+	.col,
+	.feat-img {
+		width: initial;
+		height: initial;
+		float: initial;
+	}
+	.main-logo {
+		margin-right: 0;
+	}
+	.main-nav li {
+		margin-left: 0;
+	}
+	.feat-img {
+		width: 100%;
+	}
+	.extra-content {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 /**********
 Header
@@ -106,43 +180,4 @@ nav a.selected, nav a:hover {
 color: #52A3CC;
 
 } */
-
-.main-header {
-	padding: 15px;
-}
-
-.main-nav li {
-	float: left;
-}
-
-.main-nav li {
-	margin-top: 15px;
-	margin-left: 15px;
-}
- 
-.main-nav a {
-	display: block;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	padding: 5px 15px;
-	border-radius: 5px;
-}
-.main-banner {
-	background: #dfe2e4;
-	text-align: center;
-	padding: 35px 15px;
-}
-.main-footer {
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-
-
-
-
-
-
 
