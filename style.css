@@ -66,14 +66,12 @@ color: #52A3CC;
 
 .col {
 	padding: 20px;
-	float:left;
+	float: left;
 	width: 30%;
 }
 .primary-content {
 	width: 40%;
-	
 }
-
 .col:last-child {
 	float: right;
 }
