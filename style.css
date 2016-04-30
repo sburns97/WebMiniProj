@@ -24,15 +24,9 @@ body {
     
 .main-logo a       { background-color: #5fcf80; }
 .main-nav a        { background-color: #567782; }
-.primary-content   { background-color: #567782; 
-	             height:100%;
-}
-.secondary-content { background-color: #BA7E56; 
-	             height:100%;
-}
-.extra-content     { background-color: #BA7E56;
-	             height:100%;
-}
+.primary-content   { background-color: #567782; }
+.secondary-content { background-color: #BA7E56;}
+.extra-content     { background-color: #BA7E56;}
 
 /*Header & Nav*/
 
@@ -78,6 +72,7 @@ color: #52A3CC;
 	padding: 20px;
 	float: left;
 	width: 30%;
+	min-height:100%;
 	
 }
 .primary-content {
