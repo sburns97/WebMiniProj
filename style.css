@@ -125,6 +125,12 @@ color: #52A3CC;
 	padding: 5px;
 } 
 
+.img{
+	max-width:100%;
+	max-height:100%;
+	margin:auto;
+}
+
 
 /* Media Queries */
 
