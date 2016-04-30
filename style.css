@@ -18,7 +18,7 @@ body {
 
 /* Layout Element Colors */
 
-.main-header       { background-color: #384047 
+.main-header       { background-color: #384047; 
                      background: linear-gradient(#81A8B5, transparent 90%),   
                      linear-gradient(0deg,#E3AB86, transparent 40%) ;}
     
