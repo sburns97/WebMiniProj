@@ -7,8 +7,12 @@
 }
 body {
 	font: normal 1.1em/1.5 sans-serif;
-	color: #222;
+	color: #292929;
 	background-color: #81A8B5;
+}
+
+h2,h1 {
+	color:#454545;
 }
 
 .link{
