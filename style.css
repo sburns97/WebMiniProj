@@ -18,7 +18,10 @@ body {
 
 /* Layout Element Colors */
 
-.main-header       { background-color: #384047; }
+.main-header       { background-color: #384047 
+                     background: linear-gradient(#29293D, transparent 90%),   
+                     linear-gradient(0deg,#FBF8EF, transparent 40%) ;}
+    
 .main-logo a       { background-color: #5fcf80; }
 .main-nav a        { background-color: #3f8abf; }
 .primary-content   { background-color: #caebf6; }
