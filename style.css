@@ -18,15 +18,14 @@ body {
 
 /* Layout Element Colors */
 
-.main-header       { background-color: #384047; 
+.main-header       { background-color: #E3AB86; 
                      background: linear-gradient(#81A8B5, transparent 90%),   
                      linear-gradient(0deg,#E3AB86, transparent 40%) ;}
     
 .main-logo a       { background-color: #5fcf80; }
-.main-nav a        { background-color: #3f8abf; }
+.main-nav a        { background-color: #567782; }
 .primary-content   { background-color: #caebf6; }
 .secondary-content { background-color: #bfe3d0; }
-.main-footer       { background-color: #b7c0c7; }
 
 /*Header & Nav*/
 
@@ -60,15 +59,11 @@ color: #52A3CC;
 	border-radius: 5px;
 }
 .main-banner {
-	background: #dfe2e4;
+	background: #7CA37A;
 	text-align: center;
 	padding: 35px 15px;
 }
-.main-footer {
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+
 
 /* Column Layout USE THIS IN THE SUBPAGES, NOT RELAVENT ON INDEX */
 
