@@ -24,8 +24,9 @@ body {
     
 .main-logo a       { background-color: #5fcf80; }
 .main-nav a        { background-color: #567782; }
-.primary-content   { background-color: #caebf6; }
-.secondary-content { background-color: #bfe3d0; }
+.primary-content   { background-color: #567782; }
+.secondary-content { background-color: #BA7E56; }
+.extra-content     { background-color: #BA7E56 ;}
 
 /*Header & Nav*/
 
@@ -59,7 +60,7 @@ color: #52A3CC;
 	border-radius: 5px;
 }
 .main-banner {
-	background: #567782;
+	background: #81A8B5;
 	text-align: center;
 	padding: 35px 15px;
 }
