@@ -19,8 +19,8 @@ body {
 /* Layout Element Colors */
 
 .main-header       { background-color: #E3AB86; 
-                     background: linear-gradient(#81A8B5, transparent 30%),   
-                     linear-gradient(0deg,#E3AB86, transparent 70%) ;}
+                     background: linear-gradient(#81A8B5, transparent 20%),   
+                     linear-gradient(0deg,#E3AB86, transparent 80%) ;}
     
 .main-logo a       { background-color: #5fcf80; }
 .main-nav a        { background-color: #567782; }
