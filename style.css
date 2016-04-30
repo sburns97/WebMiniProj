@@ -75,6 +75,14 @@ color: #52A3CC;
 	min-height:902px;
 	
 }
+
+.col2 {
+	padding: 20px;
+	float: left;
+	width: 30%;
+	min-height:962px;
+	
+}
 .primary-content {
 	width: 40%;
 	
@@ -83,6 +91,9 @@ color: #52A3CC;
 	float: right;
 }
 
+.col2:last-child {
+	float: right;
+}
 
 /* Float Clearfix */
 
