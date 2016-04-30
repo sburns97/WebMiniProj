@@ -76,6 +76,7 @@ color: #52A3CC;
 }
 .primary-content {
 	width: 40%;
+	max-height:100%;
 }
 .col:last-child {
 	float: right;
