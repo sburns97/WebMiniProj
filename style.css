@@ -8,7 +8,7 @@
 body {
 	font: normal 1.1em/1.5 sans-serif;
 	color: #222;
-	background-color: #edeff0;
+	background-color: #81A8B5;
 }
 
 .link{
@@ -19,8 +19,8 @@ body {
 /* Layout Element Colors */
 
 .main-header       { background-color: #E3AB86; 
-                     background: linear-gradient(#81A8B5, transparent 90%),   
-                     linear-gradient(0deg,#E3AB86, transparent 40%) ;}
+                     background: linear-gradient(#81A8B5, transparent 10%),   
+                     linear-gradient(0deg,#E3AB86, transparent 10%) ;}
     
 .main-logo a       { background-color: #5fcf80; }
 .main-nav a        { background-color: #567782; }
@@ -59,7 +59,7 @@ color: #52A3CC;
 	border-radius: 5px;
 }
 .main-banner {
-	background: #7CA37A;
+	background: #567782;
 	text-align: center;
 	padding: 35px 15px;
 }
