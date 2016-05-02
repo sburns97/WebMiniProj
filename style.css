@@ -79,7 +79,7 @@ color: #52A3CC;
 }
 
 .naver a{
-        display: block;
+        display: inline;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -181,7 +181,7 @@ color: #52A3CC;
 	.main-wrapper,
 	.main-nav li, 
 	.main-logo,
-	.col, .naver,
+	.col, .col2, .naver,
 	.feat-img {
 		width: initial;
 		height: initial;
@@ -198,9 +198,6 @@ color: #52A3CC;
 	}
 	.feat-img {
 		width: 100%;
-	}
-	.extra-content {
-		display: none;
 	}
 }
 
