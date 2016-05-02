@@ -79,7 +79,7 @@ color: #52A3CC;
 }
 
 .naver a{
-        display: inline;
+        display: block;
 	color: white;
 	text-decoration: none;
 	text-align: center;
