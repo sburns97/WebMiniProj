@@ -31,7 +31,10 @@ h2,h1 {
 .primary-content   { background-color: #567782; }
 .secondary-content { background-color: #BA7E56;}
 .extra-content     { background-color: #BA7E56;}
-.naver a        { background-color: #567782; }
+.naver a           { background-color: #567782; }
+.header            {background-color: #E3AB86; 
+                     background: linear-gradient(#81A8B5, transparent 20%),   
+                     linear-gradient(0deg,#E3AB86, transparent 80%) ;   }
 
 /*Header & Nav*/
 
@@ -41,7 +44,7 @@ color: #52A3CC;
 
 }
 
-.main-header {
+.main-header,.header {
 	padding: 15px;
 }
 .main-logo,
