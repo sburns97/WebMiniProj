@@ -84,7 +84,8 @@ color: #52A3CC;
 	text-decoration: none;
 	text-align: center;
 	padding: 5px 15px;
-	border-radius: 5px;	
+	border-radius: 5px;
+	margin: auto;
 	
 }
 
@@ -92,6 +93,7 @@ color: #52A3CC;
 	margin-top: 15px;
 	margin-left: 15px;
 	text-align:center;
+	
 }
 
 
