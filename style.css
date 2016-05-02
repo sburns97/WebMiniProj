@@ -31,6 +31,7 @@ h2,h1 {
 .primary-content   { background-color: #567782; }
 .secondary-content { background-color: #BA7E56;}
 .extra-content     { background-color: #BA7E56;}
+.naver a        { background-color: #567782; }
 
 /*Header & Nav*/
 
@@ -67,6 +68,22 @@ color: #52A3CC;
 	background: #81A8B5;
 	text-align: center;
 	padding: 35px 15px;
+}
+
+.naver a{
+        display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 15px;
+	border-radius: 5px;	
+	
+}
+
+.naver li {
+	margin-top: 15px;
+	margin-left: 15px;
+	text-align:center;
 }
 
 
@@ -156,7 +173,7 @@ color: #52A3CC;
 	.main-wrapper,
 	.main-nav li, 
 	.main-logo,
-	.col,
+	.col, .naver,
 	.feat-img {
 		width: initial;
 		height: initial;
@@ -167,6 +184,9 @@ color: #52A3CC;
 	}
 	.main-nav li {
 		margin-left: 0;
+	}
+	.naver li{
+	   margin-left: 0;	
 	}
 	.feat-img {
 		width: 100%;
